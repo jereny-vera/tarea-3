@@ -1,0 +1,77 @@
+body {
+    font-family: Arial, sans-serif; /* Define la fuente del documento */
+    background-color: #e0e8f0; /* Un tono azul claro para el fondo de la página */
+    margin: 0; /* Elimina el margen predeterminado del cuerpo */
+    padding: 0; /* Elimina el relleno predeterminado del cuerpo */
+    display: flex; /* Utiliza Flexbox para el diseño del cuerpo */
+    justify-content: center; /* Centra el contenido horizontalmente */
+    align-items: center; /* Centra el contenido verticalmente */
+    height: 100vh; /* Ajusta la altura del cuerpo al 100% del viewport */
+}
+
+.container {
+    background-color: #d0e3f0; /* Color azul pastel para el fondo del contenedor */
+    padding: 30px; /* Espaciado interno del contenedor */
+    border-radius: 8px; /* Bordes redondeados del contenedor */
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1); /* Sombra suave alrededor del contenedor */
+    max-width: 500px; /* Ancho máximo del contenedor */
+    width: 100%; /* Ancho del contenedor al 100% del espacio disponible */
+}
+
+h1 {
+    text-align: center; /* Alinea el texto del título al centro */
+    color: #2c3e50; /* Un tono azul oscuro para el título */
+    margin-bottom: 20px; /* Espaciado debajo del título */
+}
+
+.form-group {
+    margin-bottom: 15px; /* Espaciado debajo de cada grupo de formulario */
+}
+
+label {
+    display: block; /* Hace que la etiqueta se muestre en bloque para ocupar todo el ancho disponible */
+    margin-bottom: 5px; /* Espaciado debajo de la etiqueta */
+    font-weight: bold; /* Estilo de fuente en negrita */
+    color: #555; /* Color de texto gris oscuro para las etiquetas */
+}
+
+/* Estilo para los inputs y select */
+input[type="text"],
+input[type="tel"],
+input[type="email"],
+select {
+    width: 100%; /* Ancho de los cuadros de entrada y select al 100% del contenedor */
+    padding: 10px; /* Espaciado interno dentro de los cuadros */
+    border: 1px solid #ddd; /* Borde gris claro alrededor de los cuadros */
+    border-radius: 4px; /* Bordes redondeados de los cuadros */
+    font-size: 16px; /* Tamaño de fuente de los cuadros de entrada y select */
+    box-sizing: border-box; /* Incluye el borde y el relleno en el tamaño total del cuadro */
+    background-color: #e6f0ff; /* Color azul claro para el fondo de los cuadros */
+    color: #333; /* Color del texto dentro de los cuadros */
+}
+
+input[type="text"]:focus,
+input[type="tel"]:focus,
+input[type="email"]:focus,
+select:focus {
+    outline: none; /* Elimina el borde de enfoque predeterminado */
+    border-color: #5e9ed6; /* Cambia el color del borde al azul cuando el cuadro está enfocado */
+    background-color: #cfe2f3; /* Color azul aún más claro cuando el campo está enfocado */
+    box-shadow: 0 0 5px rgba(94, 158, 214, 0.5); /* Añade una sombra alrededor del cuadro cuando está enfocado */
+}
+
+button {
+    width: 100%; /* Ancho del botón al 100% del contenedor */
+    padding: 10px; /* Espaciado interno dentro del botón */
+    background-color: #5e9ed6; /* Color de fondo azul del botón */
+    color: white; /* Color del texto del botón */
+    border: none; /* Elimina el borde predeterminado del botón */
+    border-radius: 4px; /* Bordes redondeados del botón */
+    font-size: 18px; /* Tamaño de fuente del texto del botón */
+    cursor: pointer; /* Cambia el cursor a una mano cuando se pasa sobre el botón */
+    transition: background-color 0.3s ease; /* Suaviza la transición del color de fondo del botón */
+}
+
+button:hover {
+    background-color: #497ca5; /* Cambia el color de fondo del botón al pasar el cursor sobre él */
+}
